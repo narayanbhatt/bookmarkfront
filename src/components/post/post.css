@@ -1,0 +1,64 @@
+.post{
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.postWrapper{
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.postTop{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+}
+
+.postTopLeft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.postProfileImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+    margin-right: 10px;
+}
+
+
+
+.isReading{
+    color: gray;
+}
+
+.postBookName{
+    font-weight: bold;
+}
+
+.postTopRight{
+    margin-left: 90%;
+    position: absolute;
+    align-items: center;
+}
+
+.postCenter{
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-top: 3px;
+}
